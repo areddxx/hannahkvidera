@@ -39,12 +39,12 @@ module.exports = {
         trackingId: 'G-4P9G1C82YS',
       },
     },
-    // {
-    //   resolve: `gatsby-source-instagram`,
-    //   options: {
-    //     username: `42635565431`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `42635565431`,
+      },
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
